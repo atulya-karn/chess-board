@@ -1,0 +1,169 @@
+*{
+	margin: 0px;
+	padding: 0px;
+	box-sizing: border-box;
+}
+body{
+	background-color: #7B7D7D;
+}
+#nav{
+	background-color: #17202A;
+}
+#nav h2{
+	padding: 0.8%;
+	padding-left: 5%;
+	color: white
+}
+#nav h2 a{
+	text-decoration: unset;
+	color: white;
+}
+#nav .home{
+	position: absolute;
+	top: 2%;
+	color: white;
+	border-right: 1px solid white;
+}
+#nav .home a:hover{
+	border-bottom: 1px solid white;
+}
+#nav .home a{
+	text-decoration: unset;
+	color: white;
+}
+#h1{
+	left: 50%;
+}
+#h2{
+	left: 55.5%;
+}
+#h3{
+	left: 60.1%;
+}
+#h4{
+	left: 65.8%;
+}
+#h5{
+	left: 71.3%;
+}
+#h6{
+	left: 76.6%;
+}
+#h7{
+	left: 82.9%;
+}
+#h8{
+	left: 87.9%;
+}
+#chess{
+	display: inline-block;
+}
+#chessboard{
+	margin: 20px;
+	border:10px groove yellow;
+	border-collapse: collapse;
+	padding: 20px;
+}
+
+.style1 td:nth-child(odd){
+	background-color:  white;
+	height: 100px;
+	width: 100px;
+	transition: 400ms;
+}
+.style1 td:nth-child(even){
+	background-color: black;
+	height: 100px;
+	width: 100px;
+	transition: 400ms;
+}
+
+.style2 td:nth-child(even){
+	background-color:  white;
+	height: 100px;
+	width: 100px;
+	transition: 400ms;
+}
+.style2 td:nth-child(odd){
+	background-color: black;
+	height: 100px;
+	width: 100px;
+	transition: 400ms;
+}
+
+.style1 td:nth-child(odd):hover{
+	background-color: #82E0AA;
+	border-radius: 50%;
+	border:5px solid #82E0AA;
+}
+.style1 td:nth-child(even):hover{
+	background-color:#196F3D;
+	border-radius: 50%;
+	border:5px solid #196F3D;
+}
+	
+.style2 td:nth-child(even):hover{
+	background-color: #82E0AA;
+	border-radius: 50%;
+	border:5px solid #82E0AA;
+	
+}
+.style2 td:nth-child(odd):hover{
+	background-color: #196F3D;
+	border-radius: 50%;
+	border:5px solid #196F3D;
+}
+
+.about{
+	width: 400px;
+	height: 600px;
+	background-color: #17202A;
+	position: fixed;
+	top: 12%;
+	right:8%;
+	border-radius: 0% 20%;
+}
+
+.about h1{
+	text-align: center;
+	color: white;
+	padding-top: 20px;
+}
+
+.about p{
+	text-align: justify;
+	color: white;
+	padding: 20px;	
+	font-size: 20px;
+}
+.about p a{
+	text-decoration: none;
+	color: yellow;
+}
+.about p a:hover{
+	text-decoration: underline;
+}
+
+
+.about ol{
+	text-align: justify;
+	color: white;
+	font-size: 20px;
+	padding-left: 50px;	
+	padding-top: 10px;
+}
+.about li{
+	text-align: justify;
+	color: white;
+	font-size: 20px;
+	padding-left: 10px;	
+	padding-top: 5px;
+	
+}
+.about li a{
+	text-decoration: none;
+	color: white;
+}
+.about li a:hover{
+	color: yellow;
+}
